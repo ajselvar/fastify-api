@@ -1,0 +1,24 @@
+### GET ALL ITEMS
+GET http://0.0.0.0:3000/items
+
+### GET SINGLE ITEM
+GET http://0.0.0.0:3000/items/3
+
+### ADD ITEM
+POST http://0.0.0.0:3000/items
+Content-Type: application/json
+
+{
+  "name": "Item Five"
+}
+
+### DELETE ITEM
+DELETE http://0.0.0.0:3000/items/2
+
+### UPDATE ITEM
+PUT http://0.0.0.0:3000/items/3
+Content-Type: application/json
+
+{
+    "name": "Item Thraes"
+}
